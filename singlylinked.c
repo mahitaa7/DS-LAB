@@ -41,12 +41,8 @@ void createList()
 void traverse()
 {
 	struct node* temp;
-
-	// List is empty
 	if (start == NULL)
 		printf("\nList is empty\n");
-
-	// Else print the LL
 	else {
 		temp = start;
 		while (temp != NULL) {
