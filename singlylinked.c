@@ -64,9 +64,6 @@ void insertAtFront()
 		" be inserted : ");
 	scanf("%d", &data);
 	temp->info = data;
-
-	// Pointer of temp will be
-	// assigned to start
 	temp->link = start;
 	start = temp;
 }
